@@ -1,18 +1,9 @@
 class Solution {
     public boolean search(int[] nums, int target) {
         int len=nums.length;
-        int l=0;
-        int h=len-1;
-        while(l<=h){
-            int mid=(l+h)/2;
-            if(nums[mid]==target){
+        for(int i=0;i<len;i++){
+            if(nums[i]==target){
                 return true;
-            }
-            else if(nums[mid]<=target){
-                h=mid-1;
-            }
-            else{
-                l=mid+1;
             }
         }
         return false;
