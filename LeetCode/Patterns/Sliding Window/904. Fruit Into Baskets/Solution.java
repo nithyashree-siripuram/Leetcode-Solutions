@@ -8,8 +8,7 @@ class Solution {
             freq[fruits[i]]++;
         }
         for(int i=freq.length-1;i>=0;i--){
-            ind=0;
-            if(i!=0){
+            if(freq[i]!=0){
                 s=s+freq[i];
                 ind++;
             }
