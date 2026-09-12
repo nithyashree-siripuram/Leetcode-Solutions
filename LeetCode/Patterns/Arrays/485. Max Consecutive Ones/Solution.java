@@ -5,6 +5,7 @@ class Solution {
         for(int i=0;i<len;i++){
             if(nums[i]==1){
                 c++;
+            
                 if(c>max){
                     max=c;
                 }
