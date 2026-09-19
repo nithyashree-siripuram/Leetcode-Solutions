@@ -8,8 +8,8 @@
 Array, Bit Manipulation
 
 ### 🚀 Performance
-- **Runtime:** 12 ms
-- **Memory:** 47.2 MB
+- **Runtime:** 530 ms
+- **Memory:** 46.8 MB
 
 ---
 
