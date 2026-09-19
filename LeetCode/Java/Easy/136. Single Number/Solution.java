@@ -1,18 +1,19 @@
-class Solution {
-    public int singleNumber(int[] nums) {
-        HashSet<Integer> set=new HashSet<>();
-        for(int i:nums){
-            if(set.contains(i)){
-                set.remove(i);
-            }
-            else{
-                set.add(i);
-            }
+class Solution{
+    public int singleNumber(int[] nums){
+        int len=nums.length;
+        int c=0;
+        for(int i=0;i<len;i++){
+            c=0;
+            for(int j=0;j<len;j++){
+                if(nums[i]==nums[j]){
+                    c++;
+                }
+            }    
+            if(c==1){
+                    return nums[i];
+                }  
         }
-        int n=0;
-        for(int i:set){
-            n= i;
-        }
-        return n;
+        
+        return -1;
     }
 }
