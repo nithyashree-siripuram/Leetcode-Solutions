@@ -8,8 +8,8 @@
 Array, Sliding Window, Sorting
 
 ### 🚀 Performance
-- **Runtime:** 7 ms
-- **Memory:** 46.7 MB
+- **Runtime:** N/A
+- **Memory:** N/A
 
 ---
 
