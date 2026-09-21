@@ -5,10 +5,10 @@ class Solution {
         int sub=0;
         Arrays.sort(nums);
         for(int i=0;i<=len-k;i++){
-            sub=nums[i+k-1]-nums[i];
-            if(sub<min){
-                min=sub;
-            }
+             sub=nums[i+k-1]-nums[i];
+             if(sub<min){
+                 min=sub;
+             }
         }
         return min;
     }
